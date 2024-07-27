@@ -1,7 +1,14 @@
-const name= "sahil"
-const repoCount = 50
-//console.log(name + repoCount + "value");
-//console.log(`hello my name is ${name} and my repo count is${repoCount}`);
-const gameName = new String('sahil')
-console.log(gameName.charAt(2));
-console.log(gameName.indexOf('h'));
+const gameName = new String('sahilSAAHIL')
+/*const newString = gameName.substring(0,4)
+console.log(newString);*/
+
+//const anotherString = gameName.slice(1,4)
+//console.log(anotherString);
+//console.log(gameName.__proto__); 
+//const newStringOne = "     hitesh   "
+//console.log(newStringOne.trim());
+//const url= "https://sahil.com/hitesh%20sahil"
+//console.log(url.replace('%20','-'));
+console.log(gameName.split('l'));
+
+
