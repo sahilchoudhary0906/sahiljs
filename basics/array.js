@@ -28,3 +28,24 @@ console.log("c",myArr2);
 console.log(nyn2);
 // splice manipulate the original array
 // slice maynot manipulate the original array
+//------second part--------------
+const marvel_heros =["thor","iron man","spiderman","deadpool"]
+//console.log(marvel_heros)
+const theBoys=["noar","homelander","deep","starlight"]
+//console.log(theBoys);
+//marvel_heros.push(theBoys)
+//console.log(marvel_heros[4]);
+//const newHero=marvel_heros.concat(theBoys)
+//console.log(newHero);
+const newHero=[...marvel_heros,...theBoys]
+//console.log(newHero[4]);
+/*const anotherArray=[1,2,3,[4,5,6],5,[9,[5,7]]]
+const realAnotherArray = anotherArray.flat(Infinity)
+console.log(realAnotherArray)
+console.log(Array.isArray("sahil"))
+console.log(Array.from("sahil"));
+console.log(Array.from( {name:"sahil"}));//interesting*/
+let score1=100
+let score2=200
+let score3=300
+console.log(Array.of(score1,score2,score3));
