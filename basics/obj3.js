@@ -13,8 +13,8 @@ console.log(inst);
 //}
 //console.log(course.greeting());
 //-----------------api things json------------
-{
+/*{
     "name": "hitesh",
     "price":"free",
    " coursename":"js"
-}
+}*/
